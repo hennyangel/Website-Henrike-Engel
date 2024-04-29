@@ -1,0 +1,6 @@
+.flex-vertical           { display: flex; flex-direction: column; }
+.flex-horizontal         { display: flex; flex-direction: row; }
+.flex-vertical-reverse   { display: flex; flex-direction: column; }
+.flex-horizontal-reverse { display: flex; flex-direction: row; }
+
+.flex-align-center { display: flex; align-items: center; }
