@@ -1,0 +1,28 @@
+.index {
+    grid-template-rows:
+        var(--grid-outer-space)
+        var(--header-height)
+        calc(100vh - var(--header-height) - var(--grid-outer-space))
+        auto
+        auto
+        auto
+        var(--grid-outer-space);
+    grid-template-areas:
+        '.       .         .       .'
+        '.       navbar    logo    .'
+        '.       welcome   welcome .'
+        'content content   content content'
+        '.       copyright .       .'
+        '.       links     links   .'
+        '.       .         .       .';
+}
+
+.index::before {
+    content: '';
+    grid-column: 1 / -1;
+    grid-row: 1 / 4;
+    background-image: url("Home.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right -12rem top;
+}

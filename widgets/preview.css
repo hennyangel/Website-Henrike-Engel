@@ -1,3 +1,8 @@
+.preview {
+    grid-area: content;
+    padding: 1rem;
+}
+
 .preview-grid {
     --grid-space: 1rem;
 

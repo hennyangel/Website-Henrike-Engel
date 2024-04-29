@@ -1,0 +1,5 @@
+.welcome {
+    margin: 6rem auto;
+    grid-area: welcome;
+    text-align: center;
+}

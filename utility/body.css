@@ -1,11 +1,12 @@
 body {
     --grid-outer-space: 0.5rem;
+    --header-height: 12rem;
 
     margin: 0;
 
     display: grid;
     grid-template-columns: var(--grid-outer-space) auto auto var(--grid-outer-space);
-    grid-template-rows:    var(--grid-outer-space) auto auto auto auto var(--grid-outer-space);
+    grid-template-rows:    var(--grid-outer-space) var(--header-height) auto auto auto var(--grid-outer-space);
     grid-template-areas:
         '. .         .       .'
         '. navbar    logo    .'
