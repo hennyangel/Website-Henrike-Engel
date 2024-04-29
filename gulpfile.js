@@ -3,7 +3,7 @@ import concat from 'gulp-concat';
 import cssnano from 'gulp-cssnano';
 import uglify from 'gulp-uglify';
 import htmlmin from 'gulp-htmlmin';
-import fileinclude from 'gulp-file-include'; 
+import fileinclude from 'gulp-file-include';
 import imagemin from 'gulp-imagemin';
 
 const CSS_SOURCES = ['routes/*.css', 'widgets/*.css', 'utility/*.css']
@@ -37,7 +37,7 @@ function htmlTask() {
 }
 
 function imageTask() {
-    return gulp.src(IMAGES)
+    return gulp.src(IMAGES, { encoding: false })
         .pipe(imagemin())
         .pipe(gulp.dest('dist'));
 }
