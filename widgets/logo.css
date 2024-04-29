@@ -10,4 +10,5 @@
 .logo img {
     width: 5rem;
     height: 5rem;
+    box-shadow: none;
 }
