@@ -1,0 +1,30 @@
+.about-widget {
+    grid-area: content;
+}
+
+.about-widget__info-box {
+    margin-top: -3rem;
+}
+
+.about-widget img {
+    width: 80%;
+    max-width: 20rem;
+    z-index: 1;
+}
+
+.about-widget h1,
+.about-widget p {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.about-widget h1 {
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.about-widget p {
+    padding-bottom: 0.5rem;
+}

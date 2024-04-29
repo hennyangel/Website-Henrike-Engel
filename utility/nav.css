@@ -6,4 +6,5 @@ nav ul {
 
 nav a {
     text-decoration: none;
+    text-wrap: nowrap;
 }

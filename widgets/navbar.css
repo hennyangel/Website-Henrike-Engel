@@ -8,7 +8,7 @@
 .navbar .contact-link.contact--active {
     font-family: 'Playfair Display';
     color: var(--color-primary-dark);
-    font-size: 3em;
+    font-size: 2em;
     font-weight: 600;
     font-style: normal;
 }
