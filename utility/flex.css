@@ -1,6 +1,7 @@
 .flex-vertical           { display: flex; flex-direction: column; }
 .flex-horizontal         { display: flex; flex-direction: row; }
-.flex-vertical-reverse   { display: flex; flex-direction: column; }
-.flex-horizontal-reverse { display: flex; flex-direction: row; }
+.flex-vertical-reverse   { display: flex; flex-direction: column-reverse; }
+.flex-horizontal-reverse { display: flex; flex-direction: row-reverse; }
 
-.flex-align-center { display: flex; align-items: center; }
+.flex-align-center  { display: flex; align-items: center; }
+.flex-space-between { display: flex; justify-content: space-between; }
