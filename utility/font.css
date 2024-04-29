@@ -1,0 +1,49 @@
+.font-text {
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1em;
+    text-align: justify;
+}
+
+.font-title {
+    font-family: 'Playfair Display';
+    font-weight: 600;
+    font-style: normal;
+    font-size: 4em;
+}
+
+.font-subtitle {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5em;
+}
+
+.font-detail {
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1em;
+}
+
+.font-emphasis {
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2em;
+}
+
+.font-heading {
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2em;
+}
+
+.font-subheading {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1em;
+}

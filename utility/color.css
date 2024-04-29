@@ -1,0 +1,24 @@
+:root {
+    --color-neutral-dark:  black;
+    --color-neutral-mid:   grey;
+    --color-neutral-light: white;
+    --color-primary-dark:  #007172;
+    --color-primary-light: #005259;
+    --color-accent-dark:   #F29325;
+    --color-accent-light:  #FBF6F5;
+}
+
+.fg-neutral-dark  { color: var(--color-neutral-dark); }
+.fg-neutral-mid   { color: var(--color-neutral-mid); }
+.fg-neutral-light { color: var(--color-neutral-light); }
+.fg-primary-dark  { color: var(--color-primary-dark); }
+.fg-primary-light { color: var(--color-primary-light); }
+.fg-accent-dark   { color: var(--color-accent-dark); }
+.fg-accent-light  { color: var(--color-accent-light); }
+.bg-neutral-dark  { background-color: var(--color-neutral-dark);  color: var(--color-accent-light); }
+.bg-neutral-mid   { background-color: var(--color-neutral-mid);   color: var(--color-accent-light); }
+.bg-neutral-light { background-color: var(--color-neutral-light); color: var(--color-neutral-dark); }
+.bg-primary-dark  { background-color: var(--color-primary-dark);  color: var(--color-accent-light); }
+.bg-primary-light { background-color: var(--color-primary-light); color: var(--color-neutral-dark); }
+.bg-accent-dark   { background-color: var(--color-accent-dark);   color: var(--color-neutral-dark); }
+.bg-accent-light  { background-color: var(--color-accent-light);  color: var(--color-accent-dark);  }
