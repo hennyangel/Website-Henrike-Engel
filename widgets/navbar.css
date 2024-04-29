@@ -1,0 +1,10 @@
+.navbar .index-link.index--active,
+.navbar .about-link.about--active,
+.navbar .portfolio-link.portfolio--active,
+.navbar .contact-link.contact--active {
+    font-family: 'Playfair Display';
+    color: var(--color-primary-dark);
+    font-size: 3em;
+    font-weight: 600;
+    font-style: normal;
+}
