@@ -1,3 +1,7 @@
+.navbar {
+    grid-area: navbar;
+}
+
 .navbar .index-link.index--active,
 .navbar .about-link.about--active,
 .navbar .portfolio-link.portfolio--active,

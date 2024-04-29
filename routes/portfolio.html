@@ -9,11 +9,11 @@
     @@include('utility/font.html')
 </head>
 <body>
-    <header class="flex-horizontal-reverse flex-space-between">
+    <header class="subgrid">
         @@include('widgets/logo.html')
         @@include('widgets/navbar.html', {"page": "portfolio"})
     </header>
-    <main>
+    <main class="subgrid">
         @@include('widgets/sidescroll.html')
         @@include('widgets/portfolio-logos.html')
         @@include('widgets/portfolio-graphics.html')
@@ -22,7 +22,7 @@
         @@include('widgets/portfolio-flyers.html')
         @@include('widgets/portfolio-packaging.html')
     </main>
-    <footer class="bg-accent-light">
+    <footer class="subgrid bg-accent-light">
         @@include('widgets/copyright.html')
         @@include('widgets/links.html')
     </footer>
