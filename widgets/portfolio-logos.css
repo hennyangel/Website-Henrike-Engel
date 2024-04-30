@@ -1,0 +1,11 @@
+#logos {
+    display: grid;
+    gap: 1rem;
+    justify-items: center;
+}
+
+#logos img,
+#logos p {
+    max-width: calc(min(24rem, 80%));
+    margin: auto;
+}

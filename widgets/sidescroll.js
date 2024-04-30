@@ -21,7 +21,7 @@ function findActiveSectionIndex() {
         const top = sections[i].getBoundingClientRect().top;
         const height =sections[i].getBoundingClientRect().height; 
 
-        if (top >= -height / 2) {
+        if (top >= height * (-3/4)) {
             return i;
         }
     }

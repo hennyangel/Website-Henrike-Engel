@@ -1,0 +1,11 @@
+#packaging {
+    display: grid;
+    gap: 1rem;
+    justify-items: center;
+}
+
+#packaging img,
+#packaging p {
+    max-width: calc(min(24rem, 80%));
+    margin: auto;
+}

@@ -1,0 +1,11 @@
+#cards {
+    display: grid;
+    gap: 1rem;
+    justify-items: center;
+}
+
+#cards img,
+#cards p {
+    max-width: calc(min(24rem, 80%));
+    margin: auto;
+}
