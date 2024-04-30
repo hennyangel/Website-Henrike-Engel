@@ -1,0 +1,26 @@
+.imprint-widget {
+    grid-area: content;
+    margin-bottom: 1rem;
+}
+
+.imprint-widget ul {
+    list-style: none;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 1rem;
+    padding: 0;
+}
+
+.imprint-widget h1 {
+    margin-bottom: 2rem;
+}
+
+.imprint-widget h2 {
+    margin-bottom: 1rem;
+}
+
+.imprint-widget p {
+    font-weight: 200;
+    margin-bottom: 1rem;
+}
