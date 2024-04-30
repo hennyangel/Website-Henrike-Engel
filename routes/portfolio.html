@@ -8,19 +8,21 @@
     <script src="script.min.js"></script>
     @@include('utility/font.html')
 </head>
-<body>
+<body class="portfolio" onload="initializeSideScroll()" onscroll="updateSideScroll()">
     <header class="subgrid">
         @@include('widgets/logo.html')
         @@include('widgets/navbar.html', {"page": "portfolio"})
     </header>
     <main class="subgrid">
         @@include('widgets/sidescroll.html')
-        @@include('widgets/portfolio-logos.html')
-        @@include('widgets/portfolio-graphics.html')
-        @@include('widgets/portfolio-cards.html')
-        @@include('widgets/portfolio-invitations.html')
-        @@include('widgets/portfolio-flyers.html')
-        @@include('widgets/portfolio-packaging.html')
+        <article class="portfolio-article">
+            @@include('widgets/portfolio-logos.html')
+            @@include('widgets/portfolio-graphics.html')
+            @@include('widgets/portfolio-cards.html')
+            @@include('widgets/portfolio-invitations.html')
+            @@include('widgets/portfolio-flyers.html')
+            @@include('widgets/portfolio-packaging.html')
+        </article>
     </main>
     <footer class="subgrid bg-accent-light">
         @@include('widgets/copyright.html')

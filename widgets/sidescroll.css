@@ -1,0 +1,28 @@
+.sidescroll {
+    position: sticky;
+    grid-area: scroll;
+    top: 1rem;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    list-style: none;
+}
+
+.sidescroll a {
+    font-size: 0;
+}
+
+.sidescroll a::before {
+    content: '';
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: var(--color-accent-dark);
+}
+
+.sidescroll a.sidescroll--active::before {
+    background-color: var(--color-primary-dark);
+}
