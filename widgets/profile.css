@@ -1,0 +1,39 @@
+.profile {
+    grid-area: profile;
+}
+
+.profile img {
+    width: 10rem;
+    z-index: 1;
+}
+
+.profile__info {
+    list-style: none;
+    margin-top: -2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+.profile__info a {
+    text-decoration: none;
+}
+
+.profile__info li {
+    margin-bottom: 1rem;
+}
+
+.profile__info li::before {
+    content: '';
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    background-image: url('House_Light.png');
+    background-size: contain;
+    margin-right: 2rem;
+}

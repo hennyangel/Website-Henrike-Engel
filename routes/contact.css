@@ -1,0 +1,18 @@
+.contact {
+    grid-template-rows:
+        var(--grid-outer-space)
+        var(--header-height)
+        auto
+        auto
+        auto
+        auto
+        var(--grid-outer-space);
+    grid-template-areas:
+        '. .         .       .'
+        '. navbar    logo    .'
+        '. profile   profile .'
+        '. form      form    .'
+        '. copyright .       .'
+        '. links     links   .'
+        '. .         .       .';
+}
