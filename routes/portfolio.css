@@ -20,13 +20,13 @@
 @media screen and (min-width: 768px) {
     .portfolio {
         grid-template-areas:
-            '. .         .       .'
-            '. logo      navbar  .'
-            '. scroll    scroll  .'
-            '. content   content .'
-            '. copyright .       .'
-            '. links     links   .'
-            '. .         .       .';
+            '. .         .         .'
+            '. logo      navbar    .'
+            '. scroll    scroll    .'
+            '. content   content   .'
+            '. copyright copyright .'
+            '. links     links     .'
+            '. .         .         .';
     }
 }
 

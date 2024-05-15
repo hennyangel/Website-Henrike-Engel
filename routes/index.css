@@ -20,13 +20,13 @@
 @media screen and (min-width: 768px) {
     .index {
         grid-template-areas:
-            '.       .         .       .'
-            '.       logo      navbar  .'
-            '.       welcome   welcome .'
-            'content content   content content'
-            '.       copyright .       .'
-            '.       links     links   .'
-            '.       .         .       .';
+            '.       .         .         .'
+            '.       logo      navbar    .'
+            '.       welcome   welcome   .'
+            'content content   content   content'
+            '.       copyright copyright .'
+            '.       links     links     .'
+            '.       .         .         .';
     }
 }
 

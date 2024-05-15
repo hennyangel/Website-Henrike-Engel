@@ -29,12 +29,12 @@ body {
         grid-template-columns: var(--grid-outer-space) var(--logo-width) auto var(--grid-outer-space);
         grid-template-rows:    var(--grid-outer-space) var(--header-height) auto auto auto var(--grid-outer-space);
         grid-template-areas:
-            '. .         .       .'
-            '. logo      navbar  .'
-            '. content   content .'
-            '. copyright .       .'
-            '. links     links   .'
-            '. .         .       .';
+            '. .         .         .'
+            '. logo      navbar    .'
+            '. content   content   .'
+            '. copyright copyright .'
+            '. links     links     .'
+            '. .         .         .';
     }
 }
 
