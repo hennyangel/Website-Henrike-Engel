@@ -17,6 +17,19 @@
         '.       .         .       .';
 }
 
+@media screen and (min-width: 768px) {
+    .index {
+        grid-template-areas:
+            '.       .         .       .'
+            '.       logo      navbar  .'
+            '.       welcome   welcome .'
+            'content content   content content'
+            '.       copyright .       .'
+            '.       links     links   .'
+            '.       .         .       .';
+    }
+}
+
 .index::before {
     content: '';
     grid-column: 1 / -1;

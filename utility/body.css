@@ -1,5 +1,11 @@
+                                        body { --grid-outer-space: 0.5rem; }
+@media screen and (min-width:  375px) { body { --grid-outer-space: 1rem;   } }
+@media screen and (min-width:  425px) { body { --grid-outer-space: 1.5rem; } }
+@media screen and (min-width:  768px) { body { --grid-outer-space: 2rem;   } }
+@media screen and (min-width: 1024px) { body { --grid-outer-space: 4rem;   } }
+@media screen and (min-width: 1440px) { body { --grid-outer-space: 8rem;   } }
+
 body {
-    --grid-outer-space: 0.5rem;
     --header-height: 12rem;
     --logo-width: 6rem;
 
@@ -16,6 +22,20 @@ body {
         '. copyright .       .'
         '. links     links   .'
         '. .         .       .';
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        grid-template-columns: var(--grid-outer-space) var(--logo-width) auto var(--grid-outer-space);
+        grid-template-rows:    var(--grid-outer-space) var(--header-height) auto auto auto var(--grid-outer-space);
+        grid-template-areas:
+            '. .         .       .'
+            '. logo      navbar  .'
+            '. content   content .'
+            '. copyright .       .'
+            '. links     links   .'
+            '. .         .       .';
+    }
 }
 
 body:not(.index)::before {

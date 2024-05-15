@@ -16,3 +16,17 @@
         '. links     links   .'
         '. .         .       .';
 }
+
+@media screen and (min-width: 768px) {
+    .contact {
+        grid-template-areas:
+            '. .         .       .'
+            '. logo      navbar    .'
+            '. profile   profile .'
+            '. form      form    .'
+            '. copyright .       .'
+            '. links     links   .'
+            '. .         .       .';
+    }
+}
+ 
