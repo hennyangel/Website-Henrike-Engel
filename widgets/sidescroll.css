@@ -32,8 +32,10 @@
     background-color: var(--color-primary-dark);
 }
 
-.sidescroll a.sidescroll--active {
-    font-size: 1em;
+@media screen and (min-width: 768px) {
+    .sidescroll a.sidescroll--active {
+        font-size: 1em;
+    }
 }
 
 .sidescroll a:nth-child(1)::before {
