@@ -19,14 +19,20 @@
 
 @media screen and (min-width: 768px) {
     .thankyou {
+        grid-template-columns: var(--grid-outer-space) var(--logo-width) auto auto var(--grid-outer-space);
+        grid-template-rows:
+            var(--grid-outer-space)
+            var(--header-height)
+            auto
+            auto
+            var(--grid-outer-space);
         grid-template-areas:
-            '. .         .         .'
-            '. logo      navbar    .'
-            '. profile   profile   .'
-            '. thankyou  thankyou  .'
-            '. copyright copyright .'
-            '. links     links     .'
-            '. .         .         .';
+            '. .         .         .         .'
+            '. logo      navbar    navbar    .'
+            '. profile   profile   thankyou  .'
+            '. copyright copyright copyright .'
+            '. links     links     links     .'
+            '. .         .         .         .';
     }
 }
  

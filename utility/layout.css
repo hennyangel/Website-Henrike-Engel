@@ -1,0 +1,7 @@
+.center-self-vertical   { margin-top: auto; margin-bottom: auto; }
+.center-self-horizontal { margin-left: auto; margin-right: auto; }
+
+@media screen and (min-width: 768px) {
+    .center-self-vertical--tablet   { margin-top: auto; margin-bottom: auto; }
+    .center-self-horizontal--tablet { margin-left: auto; margin-right: auto; }
+}
