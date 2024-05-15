@@ -1,3 +1,7 @@
 .thankyou-widget {
     grid-area: thankyou;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
 }
