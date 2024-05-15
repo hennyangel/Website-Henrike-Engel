@@ -13,8 +13,10 @@
         @@include('widgets/logo.html')
         @@include('widgets/navbar.html', {"page": "portfolio"})
     </header>
-    <main class="subgrid">
+    <aside class="subgrid">
         @@include('widgets/sidescroll.html')
+    </aside>
+    <main class="subgrid">
         <article class="portfolio-article">
             @@include('widgets/portfolio-logos.html')
             @@include('widgets/portfolio-graphics.html')

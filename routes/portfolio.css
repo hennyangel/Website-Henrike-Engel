@@ -19,11 +19,17 @@
 
 @media screen and (min-width: 768px) {
     .portfolio {
+        grid-template-rows:
+            var(--grid-outer-space)
+            var(--header-height)
+            auto
+            auto
+            auto
+            var(--grid-outer-space);
         grid-template-areas:
             '. .         .         .'
             '. logo      navbar    .'
-            '. scroll    scroll    .'
-            '. content   content   .'
+            '. scroll    content   .'
             '. copyright copyright .'
             '. links     links     .'
             '. .         .         .';
@@ -38,4 +44,16 @@
 .portfolio-article section {
     padding-top: 4rem;
     padding-bottom: 2rem;
+}
+
+.portfolio aside { grid-row: 3 / -4; grid-column: 1 / -1; }
+.portfolio main  { grid-row: 4 / -4; grid-column: 1 / -1; }
+
+@media screen and (min-width: 768px) {
+    .portfolio-article section:first-of-type {
+        padding-top: 0;
+    }
+
+    .portfolio aside { grid-row: 3 / -4; grid-column: 2 / 3; }
+    .portfolio main  { grid-row: 3 / -4; grid-column: 3 / -1; }
 }

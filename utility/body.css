@@ -5,10 +5,12 @@
 @media screen and (min-width: 1024px) { body { --grid-outer-space: 4rem;   } }
 @media screen and (min-width: 1440px) { body { --grid-outer-space: 8rem;   } }
 
-body {
-    --header-height: 12rem;
-    --logo-width: 6rem;
+                                        body { --header-height: 12rem; }
+@media screen and (min-width:  768px) { body { --header-height: 8rem;   } }
+                                        body { --logo-width:    6rem; }
+@media screen and (min-width:  768px) { body { --logo-width:    12rem;   } }
 
+body {
     margin: 0;
     scroll-behavior: smooth;
 

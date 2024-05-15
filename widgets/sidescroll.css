@@ -8,10 +8,14 @@
     margin-left: 1rem;
     margin-right: 1rem;
     list-style: none;
+    align-self: start;
 }
 
 .sidescroll a {
     font-size: 0;
+    text-decoration: none;
+    text-wrap: nowrap;
+    overflow: visible;
 }
 
 .sidescroll a::before {
@@ -26,6 +30,10 @@
 
 .sidescroll a.sidescroll--active::before {
     background-color: var(--color-primary-dark);
+}
+
+.sidescroll a.sidescroll--active {
+    font-size: 1em;
 }
 
 .sidescroll a:nth-child(1)::before {
@@ -75,4 +83,11 @@
 
 .sidescroll a:nth-child(6).sidescroll--active::before {
     background-image: url('Packaging_Light.png');
+}
+
+@media screen and (min-width:  768px) { 
+    .sidescroll {
+        top: 4rem;
+        margin: 0;
+    }
 }
