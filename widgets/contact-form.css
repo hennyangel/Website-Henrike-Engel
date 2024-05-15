@@ -8,7 +8,7 @@
     margin-bottom: 0.5rem;
 }
 
-.contact-form input,
+.contact-form input:not(.button),
 .contact-form textarea {
     border-radius: 1rem;
     border: 2px solid var(--color-primary-dark);

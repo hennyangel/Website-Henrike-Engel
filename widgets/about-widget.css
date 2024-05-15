@@ -28,3 +28,8 @@
 .about-widget p {
     padding-bottom: 0.5rem;
 }
+
+.about-widget .button {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}

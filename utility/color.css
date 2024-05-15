@@ -20,5 +20,5 @@
 .bg-neutral-light { background-color: var(--color-neutral-light); color: var(--color-neutral-dark); }
 .bg-primary-dark  { background-color: var(--color-primary-dark);  color: var(--color-accent-light); }
 .bg-primary-light { background-color: var(--color-primary-light); color: var(--color-neutral-dark); }
-.bg-accent-dark   { background-color: var(--color-accent-dark);   color: var(--color-neutral-dark); }
+.bg-accent-dark   { background-color: var(--color-accent-dark);   color: var(--color-neutral-light); }
 .bg-accent-light  { background-color: var(--color-accent-light);  color: var(--color-accent-dark);  }
