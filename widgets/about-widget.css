@@ -1,9 +1,24 @@
 .about-widget {
     grid-area: content;
+    margin-bottom: 3rem;
 }
 
 .about-widget__info-box {
     margin-top: -3rem;
+}
+
+@media screen and (min-width: 768px) {
+    .about-widget__info-box {
+        margin-top: 2rem;
+    }
+
+    .about-widget__info-box>p:first-of-type {
+        border-top-left-radius: 2rem;
+    }
+
+    .about-widget__info-box>p:last-of-type {
+        border-bottom-left-radius: 12rem;
+    }
 }
 
 .about-widget img {
@@ -12,10 +27,26 @@
     z-index: 1;
 }
 
+@media screen and (min-width: 768px) {
+    .about-widget img {
+        width: 50%;
+        margin-left: -3rem;
+        margin-top: -16rem;
+    }
+}
+
 .about-widget h1,
 .about-widget p {
     padding-left: 1rem;
     padding-right: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+    .about-widget p {
+        padding-top: 2rem;
+        padding-left: 2rem;
+        padding-right: 6rem;
+    }
 }
 
 .about-widget h1 {
@@ -32,4 +63,12 @@
 .about-widget .button {
     margin-top: 1rem;
     margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+    .about-widget .button {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        margin-left: 4rem;
+    }
 }

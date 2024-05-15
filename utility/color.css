@@ -22,3 +22,22 @@
 .bg-primary-light { background-color: var(--color-primary-light); color: var(--color-neutral-dark); }
 .bg-accent-dark   { background-color: var(--color-accent-dark);   color: var(--color-neutral-light); }
 .bg-accent-light  { background-color: var(--color-accent-light);  color: var(--color-accent-dark);  }
+.bg-unset         { background-color: unset; }
+
+@media screen and (min-width: 768px) {
+    .fg-neutral-dark--tablet  { color: var(--color-neutral-dark); }
+    .fg-neutral-mid--tablet   { color: var(--color-neutral-mid); }
+    .fg-neutral-light--tablet { color: var(--color-neutral-light); }
+    .fg-primary-dark--tablet  { color: var(--color-primary-dark); }
+    .fg-primary-light--tablet { color: var(--color-primary-light); }
+    .fg-accent-dark--tablet   { color: var(--color-accent-dark); }
+    .fg-accent-light--tablet  { color: var(--color-accent-light); }
+    .bg-neutral-dark--tablet  { background-color: var(--color-neutral-dark);  color: var(--color-accent-light); }
+    .bg-neutral-mid--tablet   { background-color: var(--color-neutral-mid);   color: var(--color-accent-light); }
+    .bg-neutral-light--tablet { background-color: var(--color-neutral-light); color: var(--color-neutral-dark); }
+    .bg-primary-dark--tablet  { background-color: var(--color-primary-dark);  color: var(--color-accent-light); }
+    .bg-primary-light--tablet { background-color: var(--color-primary-light); color: var(--color-neutral-dark); }
+    .bg-accent-dark--tablet   { background-color: var(--color-accent-dark);   color: var(--color-neutral-light); }
+    .bg-accent-light--tablet  { background-color: var(--color-accent-light);  color: var(--color-accent-dark);  }
+    .bg-unset--tablet         { background-color: unset; }
+}
