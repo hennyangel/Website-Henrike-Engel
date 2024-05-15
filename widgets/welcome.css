@@ -4,6 +4,13 @@
     text-align: center;
 }
 
+@media screen and (min-width: 1024px) {
+    .welcome {
+        margin-top: 4rem;
+        margin-left: 4rem;
+    }
+}
+
 .welcome-line {
     width: 0;
     overflow: hidden;
