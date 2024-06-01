@@ -10,7 +10,10 @@ const CSS_SOURCES = ['routes/*.css', 'widgets/*.css', 'utility/*.css']
 const JS_SOURCES = ['widgets/*.js']
 const HTML_ROUTES = ['routes/*.html']
 const HTML_SOURCES = [...HTML_ROUTES, 'widgets/*.html']
-const IMAGES = ['images/*.png', 'images/icons/*.png', 'images/photos/*.png', 'images/portfolio/*.png']
+const IMAGES = [
+    'images/*.png', 'images/icons/*.png', 'images/photos/*.png', 'images/portfolio/*.png',
+    'images/*.jpg', 'images/icons/*.jpg', 'images/photos/*.jpg', 'images/portfolio/*.jpg',
+]
 
 function cssTask() {
     return gulp.src(CSS_SOURCES)

@@ -24,12 +24,12 @@
     width: 2rem;
     height: 2rem;
     border-radius: 50%;
-    background-color: var(--color-accent-dark);
     background-size: cover;
+    background-color: var(--color-primary-dark);
 }
 
 .sidescroll a.sidescroll--active::before {
-    background-color: var(--color-primary-dark);
+    background-color: var(--color-accent-dark);
 }
 
 @media screen and (min-width: 768px) {
@@ -38,53 +38,53 @@
     }
 }
 
-.sidescroll a:nth-child(1)::before {
-    background-image: url('Logos_Dark.png');
-}
-
-.sidescroll a:nth-child(2)::before {
-    background-image: url('Infographics_Dark.png');
-}
-
-.sidescroll a:nth-child(3)::before {
-    background-image: url('Business_Cards_Dark.png');
-}
-
-.sidescroll a:nth-child(4)::before {
-    background-image: url('Invitations_Dark.png');
-}
-
-.sidescroll a:nth-child(5)::before {
-    background-image: url('Flyers_Dark.png');
-}
-
-.sidescroll a:nth-child(6)::before {
-    background-image: url('Packaging_Dark.png');
-}
-
-
-.sidescroll a:nth-child(1).sidescroll--active::before {
+.sidescroll li:nth-of-type(1) a::before {
     background-image: url('Logos_Light.png');
 }
 
-.sidescroll a:nth-child(2).sidescroll--active::before {
+.sidescroll li:nth-of-type(2) a::before {
     background-image: url('Infographics_Light.png');
 }
 
-.sidescroll a:nth-child(3).sidescroll--active::before {
+.sidescroll li:nth-of-type(3) a::before {
     background-image: url('Business_Cards_Light.png');
 }
 
-.sidescroll a:nth-child(4).sidescroll--active::before {
+.sidescroll li:nth-of-type(4) a::before {
     background-image: url('Invitations_Light.png');
 }
 
-.sidescroll a:nth-child(5).sidescroll--active::before {
+.sidescroll li:nth-of-type(5) a::before {
     background-image: url('Flyers_Light.png');
 }
 
-.sidescroll a:nth-child(6).sidescroll--active::before {
+.sidescroll li:nth-of-type(6) a::before {
     background-image: url('Packaging_Light.png');
+}
+
+
+.sidescroll li:nth-of-type(1) a.sidescroll--active::before {
+    background-image: url('Logos_Dark.png');
+}
+
+.sidescroll li:nth-of-type(2) a.sidescroll--active::before {
+    background-image: url('Infographics_Dark.png');
+}
+
+.sidescroll li:nth-of-type(3) a.sidescroll--active::before {
+    background-image: url('Business_Cards_Dark.png');
+}
+
+.sidescroll li:nth-of-type(4) a.sidescroll--active::before {
+    background-image: url('Invitations_Dark.png');
+}
+
+.sidescroll li:nth-of-type(5) a.sidescroll--active::before {
+    background-image: url('Flyers_Dark.png');
+}
+
+.sidescroll li:nth-of-type(6) a.sidescroll--active::before {
+    background-image: url('Packaging_Dark.png');
 }
 
 @media screen and (min-width:  768px) { 
