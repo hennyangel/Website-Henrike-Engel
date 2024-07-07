@@ -8,7 +8,7 @@
                                         body { --header-height: 12rem; }
 @media screen and (min-width:  768px) { body { --header-height: 8rem;   } }
                                         body { --logo-width:    6rem; }
-@media screen and (min-width:  768px) { body { --logo-width:    12rem;   } }
+@media screen and (min-width:  768px) { body { --logo-width:    14rem;   } }
 
 body {
     margin: 0;

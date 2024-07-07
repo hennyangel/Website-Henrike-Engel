@@ -1,4 +1,11 @@
 #packaging {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.packaging__grid {
     display: grid;
     gap: 1rem;
     justify-items: center;
@@ -8,4 +15,10 @@
 #packaging p {
     max-width: calc(min(24rem, 80%));
     margin: auto;
+}
+
+@media  screen and (min-width: 1024px) {
+    .packaging__grid {
+        grid-template-columns: 1fr 1fr;
+    }
 }

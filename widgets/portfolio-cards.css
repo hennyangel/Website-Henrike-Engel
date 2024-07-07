@@ -1,4 +1,11 @@
 #cards {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.cards__grid {
     display: grid;
     gap: 1rem;
     justify-items: center;
@@ -8,4 +15,10 @@
 #cards p {
     max-width: calc(min(24rem, 80%));
     margin: auto;
+}
+
+@media  screen and (min-width: 1024px) {
+    .cards__grid {
+        grid-template-columns: 1fr 1fr;
+    }
 }
