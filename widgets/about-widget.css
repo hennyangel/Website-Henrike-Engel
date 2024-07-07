@@ -41,6 +41,12 @@
     padding-right: 1rem;
 }
 
+.about-widget p:last-child {
+    padding-bottom: 4rem;
+    border-bottom-left-radius: 8rem;
+    border-bottom-right-radius: 2rem;
+}
+
 @media screen and (min-width: 768px) {
     .about-widget p {
         padding-top: 2rem;
