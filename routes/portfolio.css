@@ -8,13 +8,13 @@
         auto
         var(--grid-outer-space);
     grid-template-areas:
-        '. .         .       .'
-        '. navbar    logo    .'
-        '. scroll    scroll  .'
-        '. content   content .'
-        '. copyright .       .'
-        '. links     links   .'
-        '. .         .       .';
+        '.      .         .       .'
+        '.      navbar    logo    .'
+        'scroll scroll    scroll  scroll'
+        '.      content   content .'
+        '.      copyright .       .'
+        '.      links     links   .'
+        '.      .         .       .';
 }
 
 @media screen and (min-width: 768px) {

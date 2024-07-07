@@ -1,8 +1,10 @@
-let buttons = undefined;
+let buttons  = undefined;
 let sections = undefined;
+let scroll   = undefined;
 
 function initializeSideScroll() {
-    buttons = document.getElementById('sidescroll').getElementsByTagName('a');
+    scroll  = document.getElementById('sidescroll');
+    buttons = scroll.getElementsByTagName('a');
 
     sections = [
         document.getElementById('logos'),
@@ -29,6 +31,12 @@ function findActiveSectionIndex() {
 }
 
 function updateSideScroll() {
+    if (scroll.getBoundingClientRect().top <= 0) {
+        scroll.classList.add("sidescroll-bg");
+    } else {
+        scroll.classList.remove("sidescroll-bg");
+    }
+
     let activeSectionIndex = findActiveSectionIndex();
 
     for (let i = 0; i < buttons.length; ++i) {

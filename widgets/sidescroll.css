@@ -1,14 +1,16 @@
 .sidescroll {
     position: sticky;
     grid-area: scroll;
-    top: 1rem;
-    padding: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    padding: 1rem;
+    top: 0;
+    margin: 0;
     list-style: none;
     align-self: start;
+
+}
+
+.sidescroll-bg {
+    background-color: var(--color-accent-light);
 }
 
 .sidescroll a {
@@ -87,9 +89,13 @@
     background-image: url('Packaging_Dark.png');
 }
 
-@media screen and (min-width:  768px) { 
+@media screen and (min-width: 768px) {
     .sidescroll {
         top: 4rem;
         margin: 0;
+    }
+
+    .sidescroll-bg {
+        background-color: transparent;
     }
 }
