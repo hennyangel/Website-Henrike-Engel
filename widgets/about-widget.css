@@ -77,4 +77,9 @@
         margin-bottom: 3rem;
         margin-left: 4rem;
     }
+
+    .about-widget p:last-child {
+        padding-bottom: 1rem;
+    }
+
 }
