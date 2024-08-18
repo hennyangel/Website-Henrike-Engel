@@ -6,8 +6,15 @@
 
 @media screen and (min-width: 1024px) {
     .welcome {
-        margin-top: 4rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
         margin-left: 4rem;
+        margin-bottom: 30vh;
+    }
+
+    .welcome .font-emphasis {
+        font-size: 3rem;
     }
 }
 
