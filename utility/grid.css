@@ -3,3 +3,11 @@
     grid-template-columns: subgrid;
     grid-template-rows: subgrid;
 }
+
+@media screen and (min-width: 1024px) {
+    .portfolio-grid>* { margin: unset !important; }
+    
+    .portfolio-grid :nth-child(2) { justify-self: start; align-self: end; }
+    .portfolio-grid :nth-child(3) { justify-self: end;   align-self: start; }
+    .portfolio-grid :nth-child(4) { justify-self: start; align-self: start; }
+}
