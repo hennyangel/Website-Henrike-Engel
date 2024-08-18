@@ -1,18 +1,17 @@
 .welcome {
-    margin: 6rem auto 0 auto;
     grid-area: welcome;
+    display: flex;
+    flex-direction: column;
+    margin: 6rem auto 30vh 4rem;
     text-align: center;
+    justify-content: end;
+}
+
+@media screen and (max-width: 768px) {
+    .welcome-line { display: none;}
 }
 
 @media screen and (min-width: 1024px) {
-    .welcome {
-        display: flex;
-        flex-direction: column;
-        justify-content: end;
-        margin-left: 4rem;
-        margin-bottom: 30vh;
-    }
-
     .welcome .font-emphasis {
         font-size: 3rem;
     }
