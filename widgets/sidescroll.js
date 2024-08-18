@@ -1,3 +1,5 @@
+const SCROLL_TOP_TOLERANCE = 3;
+
 let buttons  = undefined;
 let sections = undefined;
 let scroll   = undefined;
@@ -31,7 +33,7 @@ function findActiveSectionIndex() {
 }
 
 function updateSideScroll() {
-    if (scroll.getBoundingClientRect().top <= 0) {
+    if (scroll.getBoundingClientRect().top <= SCROLL_TOP_TOLERANCE) {
         scroll.classList.add("sidescroll-bg");
     } else {
         scroll.classList.remove("sidescroll-bg");
