@@ -8,6 +8,12 @@
 }
 
 @media screen and (min-width: 768px) {
+    .about-widget {
+        max-width: 56rem;
+        margin: auto;
+        padding-bottom: 4rem;
+    }
+
     .about-widget__info-box {
         margin-top: 2rem;
     }
@@ -29,7 +35,8 @@
 
 @media screen and (min-width: 768px) {
     .about-widget img {
-        width: 50%;
+        width: 16rem;
+        max-width: 50%;
         margin-left: -3rem;
         margin-top: -16rem;
     }

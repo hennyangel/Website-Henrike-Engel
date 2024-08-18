@@ -2,6 +2,12 @@
     grid-area: profile;
 }
 
+@media screen and (min-width: 1024px) {
+    .profile {
+        justify-self: end;
+    }
+}
+
 .profile img {
     width: 10rem;
     z-index: 1;
@@ -33,7 +39,12 @@
     display: inline-block;
     width: 1rem;
     height: 1rem;
-    background-image: url('House_Light.png');
     background-size: contain;
     margin-right: 2rem;
 }
+
+.profile-icon--person::before    { background-image: url('Person_Light.png'); }
+.profile-icon--mail::before      { background-image: url('Mail_Light.png'); }
+.profile-icon--house::before     { background-image: url('House_Light.png'); }
+.profile-icon--instagram::before { background-image: url('Instagram_Light.png'); }
+.profile-icon--linkedin::before  { background-image: url('Web_Light.png'); }

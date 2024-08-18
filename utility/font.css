@@ -47,6 +47,14 @@
     font-size: 1.5em;
 }
 
+
+@media screen and (min-width: 1024px) {
+    .font-heading {
+        font-size: 3em;
+    }
+}
+
+
 .font-subheading {
     font-family: 'Poppins';
     font-weight: 500;
