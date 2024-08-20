@@ -1,1 +1,8 @@
-# Website-Henrike-engel
+# Henrike Engel Design
+
+## Build
+
+To build the website, run:
+```
+$ gulp
+```
