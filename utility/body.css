@@ -1,9 +1,9 @@
-                                        body { --grid-outer-space: 0.5rem; }
-@media screen and (min-width:  375px) { body { --grid-outer-space: 1rem;   } }
-@media screen and (min-width:  425px) { body { --grid-outer-space: 1.5rem; } }
+                                        body { --grid-outer-space: 1rem; }
+@media screen and (min-width:  375px) { body { --grid-outer-space: 1.5rem;   } }
+@media screen and (min-width:  425px) { body { --grid-outer-space: 2rem; } }
 @media screen and (min-width:  768px) { body { --grid-outer-space: 2rem;   } }
 @media screen and (min-width: 1024px) { body { --grid-outer-space: 4rem;   } }
-@media screen and (min-width: 1440px) { body { --grid-outer-space: 8rem;   } }
+@media screen and (min-width: 1440px) { body { --grid-outer-space: 4rem;   } }
 
                                         body { --header-height: 12rem; }
 @media screen and (min-width:  768px) { body { --header-height: 8rem;   } }
