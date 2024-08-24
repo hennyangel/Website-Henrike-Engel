@@ -1,0 +1,21 @@
+.padding-0rem { padding: 0; }
+.padding-1rem { padding: 1rem; }
+.padding-2rem { padding: 2rem; }
+.padding-3rem { padding: 3rem; }
+.padding-4rem { padding: 4rem; }
+.padding-5rem { padding: 5rem; }
+.padding-6rem { padding: 6rem; }
+.padding-7rem { padding: 7rem; }
+.padding-8rem { padding: 8rem; }
+
+@media screen and (min-width: 1440px) {
+    .padding-0rem--desktop-l { padding: 0; }
+    .padding-1rem--desktop-l { padding: 1rem; }
+    .padding-2rem--desktop-l { padding: 2rem; }
+    .padding-3rem--desktop-l { padding: 3rem; }
+    .padding-4rem--desktop-l { padding: 4rem; }
+    .padding-5rem--desktop-l { padding: 5rem; }
+    .padding-6rem--desktop-l { padding: 6rem; }
+    .padding-7rem--desktop-l { padding: 7rem; }
+    .padding-8rem--desktop-l { padding: 8rem; }
+}

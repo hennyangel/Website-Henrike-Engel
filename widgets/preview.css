@@ -1,7 +1,13 @@
-.preview {
-    grid-area: content;
-    padding: 1rem;
-}
+.preview   { grid-area: content; }
+.preview-1 { grid-area: flyer1; }
+.preview-2 { grid-area: logo1; }
+.preview-3 { grid-area: card2; }
+.preview-4 { grid-area: pack1; }
+.preview-5 { grid-area: invite1; }
+.preview-6 { grid-area: card1; }
+.preview-7 { grid-area: graphic1; }
+.preview-8 { grid-area: card3; }
+.preview-9 { grid-area: graphic2; }
 
 .preview-grid {
     --grid-space: 1rem;
@@ -46,16 +52,6 @@
     margin: auto;
     max-width: 28rem;
 }
-
-.preview-1 { grid-area: flyer1; }
-.preview-2 { grid-area: logo1; }
-.preview-3 { grid-area: card2; }
-.preview-4 { grid-area: pack1; }
-.preview-5 { grid-area: invite1; }
-.preview-6 { grid-area: card1; }
-.preview-7 { grid-area: graphic1; }
-.preview-8 { grid-area: card3; }
-.preview-9 { grid-area: graphic2; }
 
 @media screen and (min-width: 1024px) { 
     .preview-grid {
