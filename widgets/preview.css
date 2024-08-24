@@ -58,5 +58,51 @@
 .preview-9 { grid-area: graphic2; }
 
 @media screen and (min-width: 1024px) { 
-    
+    .preview-grid {
+        --grid-space: 2rem;
+
+        grid-template-columns:
+            /* Block 1 */
+            11fr               /* Top: Image, Bottom: Left Image */
+            var(--grid-space)  /* Top: Image, Bottom: Space */
+            5fr                /* Top: Image, Bottom: Right Image */
+            /* Block 2-4 */
+            var(--grid-space)  /* All are the same: */
+            8fr                /* Space to previous block + 1 Image */
+            var(--grid-space)
+            8fr
+            var(--grid-space)
+            7fr;
+
+        grid-template-rows:
+            var(--grid-space)  /* Blocks 1,2,4: Image, Block 3: Spacing*/
+            auto               /* Image */
+            var(--grid-space)  /* Blocks 1,3,4: Image, Block 2: Gap */
+            auto               /* Image */
+            var(--grid-space)  /* Blocks 1,2,4: Image, Block 3: Gap */
+            auto               /* Image */
+            var(--grid-space)  /* Blocks 2,3,4: Image, Block 1: Gap */
+            auto               /* Image */
+            var(--grid-space)  /* Blocks 1,2,3: Image, Block 4: Gap */
+            auto               /* Blocks 1,2,4: Image, Block 3: Spacing */
+            var(--grid-space); /* Blocks 1,2,3: Image, Block 3: Spacing */
+            
+        grid-template-areas:
+            "flyer1  flyer1 flyer1 . logo1    . .     . pack1"
+            "flyer1  flyer1 flyer1 . logo1    . card2 . pack1"
+            "flyer1  flyer1 flyer1 . .        . card2 . pack1"
+            "flyer1  flyer1 flyer1 . graphic1 . card2 . pack1"
+            "flyer1  flyer1 flyer1 . graphic1 . .     . pack1"
+            "flyer1  flyer1 flyer1 . graphic1 . card3 . pack1"
+            ".       .      .      . graphic1 . card3 . pack1"
+            "invite1 .      card1  . graphic1 . card3 . pack1"
+            "invite1 .      card1  . graphic1 . card3 . ."
+            "invite1 .      card1  . graphic1 . .     . graphic2"
+            "invite1 .      .      . graphic1 . .     . graphic2";
+
+        max-width: 86rem;
+    }
+
+    .preview-2 { align-self: end; }
+    .preview-3 { align-self: end; }
 }
