@@ -12,8 +12,7 @@
 
 body {
     margin: 0;
-    scroll-behavior: smooth;
-
+    
     display: grid;
     grid-template-columns: var(--grid-outer-space) auto var(--logo-width) var(--grid-outer-space);
     grid-template-rows:    var(--grid-outer-space) var(--header-height) auto auto auto var(--grid-outer-space);
