@@ -4,6 +4,10 @@
 
 To build the website, run:
 ```
-$ gulp
-npm exec gulp watch
+$ npm exec gulp
+```
+
+To have it listen for chenges, run:
+```
+$ npm exec gulp watch
 ```
