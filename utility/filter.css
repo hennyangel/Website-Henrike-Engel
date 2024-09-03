@@ -1,0 +1,10 @@
+@media screen and (min-width: 1024px) {
+    .black-and-white--desktop {
+        filter: grayscale(100%);
+    }
+
+    .remove-black-and-white-on-hover--desktop:hover {
+        transition: all 0.5s ease;
+        filter: grayscale(0%);
+    }
+}
