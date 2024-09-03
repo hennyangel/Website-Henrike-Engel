@@ -61,3 +61,7 @@
     font-style: normal;
     font-size: 1em;
 }
+
+.font-horizontal-center {
+    text-align: center;
+}

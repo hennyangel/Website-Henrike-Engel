@@ -8,6 +8,28 @@
 .padding-7rem { padding: 7rem; }
 .padding-8rem { padding: 8rem; }
 
+.padding-bottom-0rem { padding-bottom: 0; }
+.padding-bottom-1rem { padding-bottom: 1rem; }
+.padding-bottom-2rem { padding-bottom: 2rem; }
+.padding-bottom-3rem { padding-bottom: 3rem; }
+.padding-bottom-4rem { padding-bottom: 4rem; }
+.padding-bottom-5rem { padding-bottom: 5rem; }
+.padding-bottom-6rem { padding-bottom: 6rem; }
+.padding-bottom-7rem { padding-bottom: 7rem; }
+.padding-bottom-8rem { padding-bottom: 8rem; }
+
+@media screen and (min-width: 1024px) {
+    .padding-bottom-0rem--desktop { padding-bottom: 0; }
+    .padding-bottom-1rem--desktop { padding-bottom: 1rem; }
+    .padding-bottom-2rem--desktop { padding-bottom: 2rem; }
+    .padding-bottom-3rem--desktop { padding-bottom: 3rem; }
+    .padding-bottom-4rem--desktop { padding-bottom: 4rem; }
+    .padding-bottom-5rem--desktop { padding-bottom: 5rem; }
+    .padding-bottom-6rem--desktop { padding-bottom: 6rem; }
+    .padding-bottom-7rem--desktop { padding-bottom: 7rem; }
+    .padding-bottom-8rem--desktop { padding-bottom: 8rem; }
+}
+
 @media screen and (min-width: 1440px) {
     .padding-0rem--desktop-l { padding: 0; }
     .padding-1rem--desktop-l { padding: 1rem; }
