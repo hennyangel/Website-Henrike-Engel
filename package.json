@@ -19,5 +19,8 @@
     "gulp-imagemin": "^8.0.0",
     "gulp-include": "^2.4.1",
     "gulp-uglify": "^3.0.2"
+  },
+  "dependencies": {
+    "caniuse-db": "^1.0.30001701"
   }
 }
