@@ -10,7 +10,7 @@ function initializeSideScroll() {
 
     sections = [
         document.getElementById('logos'),
-        document.getElementById('graphics'),
+        document.getElementById('socialmedia'),
         document.getElementById('cards'),
         document.getElementById('invitations'),
         document.getElementById('flyers'),
